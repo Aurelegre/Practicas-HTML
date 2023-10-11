@@ -1,0 +1,53 @@
+h1 {
+  color: blue;
+  background-color: black;
+  border: 10px solid rgba(349, 83, 48, 0.8);
+}
+p {
+  color: yellow;
+  background-color: purple;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border-left: 10px solid rgba(349, 40, 60, 0.8);
+  border-right: 10px solid rgba(53, 220, 220, 0.8);
+  border-bottom: 10px solid rgba(349, 40, 60, 0.8);
+  border-top: 10px solid rgba(53, 220, 220, 0.8);
+  border-radius: 50px 50px 50px 50px;
+  /*margin-left: 20px;
+  margin-right: 25px;
+  margin-top: 25px;*/
+  margin: auto 50px;
+  margin-top: 5px;
+  text-align: center;
+  
+}
+body {
+  background-color: beige;
+}
+/*cuando un link no a sido ingresado*/
+a:link{
+  color: #f07167;
+  text-decoration: none;/*le quieto el subrayado*/
+}
+/*cuando un link ya fue ingresado*/
+a:visited{
+  color: #fb8500;
+  text-decoration: none;
+}
+/*cuando el mause se pone encima del link*/
+a:hover{
+  color: #8ecae6;
+  text-decoration: underline;/*le pongo el subrayado*/
+}
+a:active{
+  color: #023047 ;
+  text-decoration: underline;
+}
+a{
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;/*le pone negrita*/
+  text-align: center;
+  margin: auto ;
+}
